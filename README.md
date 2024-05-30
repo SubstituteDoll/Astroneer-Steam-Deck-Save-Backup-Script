@@ -2,7 +2,7 @@
 A bash script that backs up astroneer save files from the complicated path into the desktop directory.
 
 ## How to use easily
-`curl -sSL https://github.com/SubstituteDoll/Astroneer-Steam-Deck-Save-Backup-Script/blob/main/AstroSaveScript.sh | bash`
+`curl -sSL https://raw.githubusercontent.com/SubstituteDoll/Astroneer-Steam-Deck-Save-Backup-Script/blob/main/AstroSaveScript.sh | bash`
 
 ## Why use this?
 Because Astroneer is a buggy mess, it is recommended that you backup your save frequently, especially **before every time you take off from the planet**. Unfortunately, on the steam deck, the compatibility layer Proton makes navigating to the save files' directory **VERY** difficult, since it is buried beneath layers upon layers of compatibility directories. Not to mention, even before all that, you have to remember the Steam game ID of astroneer to even begin to navigate those!
