@@ -11,7 +11,7 @@ mkdir AstroBackups || true
 cd AstroBackups
 
 # Create a directory with the current date to the minute
-new_dir=$(date '+%Y-%m-%d_%H-%M-%S')
+new_dir=AstroneerSaveBackup-$(date '+%Y-%m-%d_%H-%M-%S')
 mkdir "$new_dir"
 
 # Recursively copy all files from another directory into the new directory
