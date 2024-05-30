@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Script: Copy Files to Directory with Current Date
 # Description: This script creates a new directory with the current date and time, and then recursively copies all files from another directory into the new directory.
@@ -18,6 +18,6 @@ mkdir "$new_dir"
 echo "--------- Hard coded steam deck astroneer save path, change if necessary ---------"
 echo "--------- This likely won't change unless Steam actually changes the game ID of Astroneer, but just in case ---------"
 source_dir="/home/deck/.local/share/Steam/steamapps/compatdata/361420/pfx/drive_c/users/steamuser/AppData/Local/Astro/Saved/SaveGames"
-cp -r "$source_dir/*" "$new_dir"
+cp -r "$source_dir" "$new_dir"
 
 echo "--------- Files copied successfully to $new_dir ---------"
